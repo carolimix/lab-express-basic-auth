@@ -1,0 +1,9 @@
+<h1>All the rooms</h1>
+{{#each rooms}}
+	<div>
+		<h2>Name: {{name}}</h2>
+		<h2>Price: {{price}}</h2>
+		<h2>Owner: {{owner.username}}</h2>
+	</div>
+{{/each}}
+<a href="/profile">User profile</a>
